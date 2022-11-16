@@ -9,7 +9,7 @@ namespace AlgLab4
 {
     public static class TaskThree
     {
-        private const string path = "Alice.txt";
+        public static string path = "Alice.txt";
         private const string pathSortText = "SortText.txt";
         private const string pathCountUnique = "AliceUnique.txt";
         private static char[] chars = { '!', '?', ',', '.', '@', '/', '*', '+', '-',' ','\r','\n','\'','\"',';',':','-','(',')', '—','[',']'};
